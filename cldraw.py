@@ -2,7 +2,6 @@ import random
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from tqdm import tqdm
 
 def valid_draw(winner, runner_up):
     return winner[0] != runner_up[0] and winner[1] != runner_up[1]
